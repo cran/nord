@@ -3,7 +3,7 @@
 nord: Northern-themed Color palettes
 ====================================
 
-[![Travis Build Status](https://travis-ci.org/jkaupp/nord.svg?branch=master)](https://travis-ci.org/jkaupp/nord)[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/jkaupp/nord?branch=master&svg=true)](https://ci.appveyor.com/project/jkaupp/nord)
+[![Travis Build Status](https://travis-ci.org/jkaupp/nord.svg?branch=master)](https://travis-ci.org/jkaupp/nord)[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/jkaupp/nord?branch=master&svg=true)](https://ci.appveyor.com/project/jkaupp/nord)[![CRAN status](http://www.r-pkg.org/badges/version/nord)](https://cran.r-project.org/package=nord)[![CRAN\_Download\_Badge](http://cranlogs.r-pkg.org/badges/nord)](https://CRAN.R-project.org/package=nord)
 
 The goal of nord is to provide access to many northern inspired palettes:
 
@@ -16,7 +16,13 @@ These palettes can be used both with `ggplot2`, `lattice` and base R plotting to
 Installation
 ------------
 
-You can install nord from github with:
+You can install nord from CRAN:
+
+``` r
+install.packages("nord")
+```
+
+or you can install the development version of nord from github with:
 
 ``` r
 # install.packages("devtools")
